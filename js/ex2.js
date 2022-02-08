@@ -1,5 +1,5 @@
 var day = prompt("Enter a day of the week in this format mon - tue - wed - thu - fri - sat - sun")
-switch (lowerDay) {
+switch (day) {
     case "mon":
         console.log(`You entered: ${day}`);
         console.log("The following day is: Tuesday");
