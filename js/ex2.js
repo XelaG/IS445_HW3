@@ -1,5 +1,4 @@
-var day = prompt("Enter a day of the week in this format MON - TUE - WED - THU - FRI - SAT - SUN")
-var lowerDay = day.toLocaleLowerCase()
+var day = prompt("Enter a day of the week in this format mon - tue - wed - thu - fri - sat - sun")
 switch (lowerDay) {
     case "mon":
         console.log(`You entered: ${day}`);
